@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(1, 1, 37);
+    color: white;
+}
+.left img{
+    width: 10%;
+    height: 10%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(24, 24, 68);
+}
+nav ul{
+    display: flex;
+        justify-content: center;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+   
+    
+}
+nav ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.left{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23 0px;
+}
+.leftsection {
+    font-size: 2.5rem;
+    width: 33%;
+    margin: 80px;
+}
+#btn{
+    background-color: rgb(52, 52, 129);
+    padding: 1rem;
+    margin-top: 100px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+#btn:hover{
+    opacity: 0.5;
+}
+.leftsection div{
+    color: rgb(108, 64, 148);
+    
+}
+.rightsection{
+
+    width: 30%;
+}
+.rightsection img {
+    width: 75%;
+    margin: 40px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    
+    
+}
+#element{
+    color: rgb(108, 64, 148);
+}
+.skillsection{
+    height: 50vh;
+    
+}
+
+.skill{
+    margin: 40px 150px;
+    font-size: 1.5rem;
+}
+.hr{
+    width: 75%;
+    margin-left: 200px;
+    align-items: center;
+}
+.br {
+    border:1px solid white;
+    width: 2px;
+    height: 50px;
+    margin-left: 230px;
+}
+.br p {
+    margin-top: 55px;
+    margin-left: -5px;
+}
+.skillbr , p{
+    display: flex;
+
+}
+
+
+.projectsection{
+    height: 50vh;
+    
+}
+
+.project{
+    margin: 40px 150px;
+    font-size: 1.5rem;
+}
+.hr{
+    width: 75%;
+    margin-left: 200px;
+    align-items: center;
+}
+.br {
+    border:1px solid white;
+    width: 2px;
+    height: 50px;
+    margin-left: 230px;
+}
+.br h3 {
+    display: flex;
+    margin-top: 55px;
+    margin-left: -5px;
+    
+}
+.projectbr{
+    display: flex;
+
+}
+.paragraph{
+    max-width: 14%;
+
+   
+}
+#p{
+    margin-top: 15px;
+    color: rgb(165, 162, 162);
+    
+   
+}
+
+.contactsection{
+    margin-top: 40px;
+    background-color: rgb(38, 119, 106);
+    height: 30vh;
+   
+}
+.cont{
+    display: flex;
+    align-items: center;
+    
+}
+.cont img{
+   margin-left: 50px;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+#c {
+    padding:  1.5rem;
+    font-size: 1.5rem;
+}
+.contact{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+.foot1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    background-color: rgb(75, 8, 39);
+}
+.foot1 img{
+    height: 60%;
+    width: 60%;
+}
+.foot2{
+    background-color: black;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
